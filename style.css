@@ -1,0 +1,203 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/Open_Sans/OpenSans-SemiBold.ttf");
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #282828;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+}
+.logo {
+  margin-left: 95px;
+  margin-right: 70px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+#Menu_ul {
+  padding: 0;
+  display: flex;
+  flex: 1;
+  align-items: stretch;
+  border: 3px solid #e1b838;
+  margin-top: 90px;
+  margin-right: 105px;
+}
+#Menu {
+  flex: 1;
+}
+.Menu_li {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+  list-style: none;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.a_li {
+  flex: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #e1b838;
+  font-size: 24px;
+}
+.Menu_li:hover {
+  color: #282828;
+  background-color: #e1b838;
+}
+/*////////////////////////////*/
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  align-items: center;
+}
+
+.Main_1 {
+  display: flex;
+  flex: 1;
+  height: 600;
+  width: 1440px;
+  background-image: url(img/BFon_1.png);
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 0;
+}
+.Main_1 img {
+  margin: 0;
+  padding: 0;
+}
+/*////////*/
+.Main_2 {
+  display: grid;
+  height: 600;
+  width: 1440px;
+  background-image: url(img/BFon_1.png);
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 0;
+}
+.imgg {
+  display: flex;
+  justify-content: space-around;
+}
+.menu_t {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #e3e3e2;
+  font-size: 53px;
+}
+.menuu {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.Blok_menu {
+  margin: 20px;
+  padding: 0;
+  border: solid 4px #e1b838;
+  width: 360px;
+  height: 215px;
+}
+.lolo {
+  display: flex;
+  margin: 20px;
+  justify-items: space-around;
+}
+.shapka {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 1000;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  background-color: #e1b838;
+  color: #262626;
+}
+.punkt {
+  display: flex;
+  justify-content: space-between;
+  color: #e3e3e2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+/*////////////////////////////////////////////*/
+.Main_3 {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  background-image: url(img/BFon_1.png);
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 0px;
+}
+.img_1 {
+  margin-left: 90px;
+  padding: 0;
+}
+.Zagolovok {
+  color: #e1b838;
+  margin-top: 100px;
+  margin-right: 130px;
+  text-align: end;
+  align-items: flex-end;
+}
+.zag{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 55px;
+  font-weight: lighter;
+  margin:0;
+}
+.zag_b{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 55px;
+}
+.Button {
+  text-align: center;
+  height: 40px;
+  width: 185px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 24px;
+  background-color: #e1b838;
+  color: #262626;
+  margin-left: 285px;
+  margin-top: 30px;
+}
+.Button:hover{
+  cursor: pointer;
+}
+.mini_imdge{
+  margin-top: 125px;
+  margin-left: 310px;
+}
+.Textmini{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #e1b838;
+  margin-left: 190px;
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+  
+/*************************************************************/
+.topNubex {
+	position: fixed;
+	right: 40px;
+	bottom: 40px;
+   }
